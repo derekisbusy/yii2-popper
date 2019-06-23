@@ -25,7 +25,24 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it by adding it to your view  :
 
 ```php
-<?= \derekisbusy\popper\AutoloadExample::widget(); ?>```
+use \derekisbusy\popper\PopperAsset;
+
+PopperAsset::register($this);
+```
+
+or by adding it to another assets dependencies list :
+
+```php
+  public $depends = [
+    'derekisbusy\popper\PopperAsset'
+  ];
+```
+
+Resources
+---------
+ * [FezVrasta/popper.js](https://github.com/FezVrasta/popper.js)
+ * [Popper.js docs](https://popper.js.org/popper-documentation.html)
+ * [Yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
