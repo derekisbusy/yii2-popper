@@ -1,9 +1,9 @@
 <?php
-namespace derekisbusy\bootstrap4;
+namespace derekisbusy\popper;
 
 use yii\web\AssetBundle;
 
-class BootstrapAsset extends AssetBundle
+class PopperAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/derekisbusy/popper';
     
