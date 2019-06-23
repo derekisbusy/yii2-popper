@@ -43,5 +43,7 @@ or by adding it to another assets dependencies list :
 
 Resources
 ---------
- * [JQuery Easing](https://jqueryui.com/easing/)
+
+ * [FezVrasta/popper.js](https://github.com/FezVrasta/popper.js)
+ * [Popper.js docs](https://popper.js.org/popper-documentation.html)
  * [Yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
